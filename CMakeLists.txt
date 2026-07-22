@@ -7,8 +7,6 @@ add_library(OBS::grayscale-histogram ALIAS obs-grayscale-histogram)
 
 target_sources(obs-grayscale-histogram PRIVATE
     obs-grayscale-histogram.c
-    obs-grayscale-histogram.h
-    grayscale-histogram-dock.hpp
     grayscale-histogram-dock.cpp
 )
 
